@@ -1,0 +1,11 @@
+sub(a: int, b: int) → int  
+- Purpose: compute the integer difference a − b.  
+- Typical inputs/outputs: any two ints → int result (can be negative or zero).  
+- Boundary conditions: Python’s arbitrary-precision ints → no overflow; large-magnitude values supported.  
+- Invalid inputs: non-numeric or non-subtraction-compatible types → underlying TypeError (no custom checks).  
+
+multiply(a: int, b: int) → int  
+- Purpose: compute the integer product a × b.  
+- Typical inputs/outputs: any two ints → int result (zero, positive, or negative).  
+- Boundary conditions: arbitrary-precision ints → no overflow; supports very large results.  
+- Invalid inputs: non-numeric or non-multiplication-compatible types → underlying TypeError (no custom checks).
